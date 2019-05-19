@@ -1,0 +1,22 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Iniciar : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+
+    public void IniciarJuego()
+    {
+        SceneManager.LoadScene("Proyecto Final");
+    }
+}
